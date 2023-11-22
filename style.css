@@ -1,0 +1,338 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html
+{
+	font-size: 10px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+ol{
+	list-style-type: none;
+}
+/*
+	font-family: AudiType-Normal,Helvetica,Arial,sans-serif !important;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
+	font-family: 'Segoe UI', Tahoma, sans-serif
+
+*/
+
+
+									/* Navbar */
+
+.logo{
+	width: 70px;
+	height: 45px;
+}
+
+.nav-links{
+	font-size: 1.7rem;	
+}
+
+
+.arama{
+	font-size: 2rem;
+}
+
+.navbars{
+	font-family: AudiType-Normal,Helvetica,Arial,sans-serif !important;
+	
+}
+
+.nav-items li{
+	font-size: 2rem;
+	color: yellow;
+	width: 100vh;
+	
+}
+
+									/*navbar*/
+									/*header*/
+
+
+
+.header-text{
+	display: inline-block;
+	position: absolute;
+	top: 51rem;
+	left: 7rem;
+}
+
+.header-text h1{	
+	font-size: 5rem;
+		
+}
+.header-text h2{	
+	font-size: 2.4rem;
+		
+}
+
+.header-btn{
+	border-color: #fff;
+	border: none;
+	padding: 13px 24px;
+	font-size: 2rem;
+}
+
+.header-text h5{	
+	margin-top: 5rem;
+		
+}   
+					/*//*/
+
+.image-manzara{
+    background-image: url(images/1Audi-etron-lansman-banner-anasayfa.png);
+    width: auto;
+    height: 78rem;
+    background-size: cover;
+    background-position: center;
+
+    z-index: -1;
+    
+}
+
+@media (max-width:640px) {
+	html{
+		font-size: 9px;
+	}
+	
+	
+	.header-text{
+		display: inline-block;
+		position: absolute;
+		top: 465px;
+		left: 3rem;
+		
+	}
+	.header-text h1{	
+		font-size: 3rem;
+		color: #fff;
+			
+	}
+	.header-text h2{	
+		color: #fff;
+			
+	}
+	.yarın-text{
+		display: flex;
+		color: #fff;
+		padding-top: 11px;
+	}
+	.header-btn{
+		border-color: #fff;
+		border: none;
+		padding: 13px 15rem;
+		font-size: 2rem;
+	}
+	.header-text h5{	
+		line-height: 2rem;
+			
+	}  
+	.arama-btn{
+		display: none;
+	}
+
+	
+	.image-audi2 h5{
+		font-size: 2rem;
+	}
+	
+	.image-audi2 h6{
+		font-size: 1.2rem;
+	}
+	
+	
+}
+
+						/*header*/
+		
+						/*section*/
+						
+
+.tron-audi{
+	padding-top: 8rem;
+
+	margin: 10rem;
+}
+
+.tron-audi img{
+	width: 93%;
+	border: none;
+}
+
+.tron-audi h1{
+	
+	font-size: 6rem;
+	font-family: AudiType-Normal;
+	letter-spacing: 0.1rem;
+
+}
+
+.tron-btn1{
+	font-size: 1.7rem;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
+	
+}
+
+.tron-btn2{
+	font-size: 1.7rem;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
+	
+}
+
+
+
+.tron-alt h1{
+	font-size: 7.3rem;
+	font-family: 'Cormorant Garamond', serif;
+	
+}
+
+.tron-alt h5{
+	font-size: 1.5rem;
+	color: black;
+}
+
+.tron-alt-btn{
+	font-size: 2rem;
+	border: none;
+	background-color: #fff;
+	padding-bottom: 7rem;
+}
+/**/
+.image-audi2{
+	background-image: url(images/3840x4000.webp);
+    width: auto;
+    height: 78rem;
+    background-size: cover;
+    background-position: center;
+	padding: 4rem;
+}
+
+.image-audi2 h5{
+	font-size: 4rem;
+}
+
+.image-audi2 h6{
+	font-size: 1.5rem;
+}
+
+
+.alt-text{
+	padding-left: 5rem;
+}
+
+.tron-alt-btn2{
+	font-size: 1.8rem;
+	border: none;
+	background-color: #fff;
+}
+/**/
+
+.Stromverbrauch-p{
+	font-size: 1.3rem;
+	margin-top: 4rem;
+	margin-bottom: 12rem;
+}
+
+/**/
+
+
+.bilgilendirme h5{
+
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+
+.bilgilendirme p{
+
+	font-size: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.bilgi-btn{
+	border: none;
+	background-color: #fff;
+	font-size: 2rem;
+	margin-top: 1.7rem;
+	
+}
+
+
+
+							/*section*/
+							/* footer */
+							
+
+
+.Basa-don-btn{
+	border: none;
+	font-size: 1.5rem;
+
+	float: right;
+	 
+}
+
+.footers h4{
+	font-size: 2rem;
+	margin-top: 6rem;
+	margin-bottom: 4rem;
+	color: #fff;
+}
+
+.footers p{
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+/**/
+
+.sosyal-medya{
+	font-size: 2rem;
+}
+
+/**/
+.alt-menus{
+	font-size: 1.4rem;
+
+}
+
+.alt-menu a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.alt-menu a:hover{
+	color: grey;
+	transition: all 0.2s;
+}
+
+/**/
+.footer-p{
+	margin-top: 6rem;
+	padding-bottom: 4rem;
+	font-size: 1.3rem;
+}
+/**/
+
+
+.card	 {
+    border: 10;
+}
+
+
+
+							/*footer*/
+
+		
